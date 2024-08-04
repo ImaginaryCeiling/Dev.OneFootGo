@@ -1,6 +1,4 @@
 // file: app/page.tsx
-import VideoAnalyzer from '../components/VideoAnalyzer';
-import FileUpload from '../components/FileUpload';
 import FileUploadv2 from '@/components/FileUploadv2';
 
 export default function Home() {
