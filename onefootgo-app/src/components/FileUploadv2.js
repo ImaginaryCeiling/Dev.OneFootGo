@@ -25,7 +25,7 @@ export default function FileUploadv2() {
 
     const params = {
       Bucket: process.env.NEXT_PUBLIC_S3_BUCKET,
-      Key: 'input-videos/${file.name}',
+      Key: `input-videos/${file.name}`,
       Body: file,
     };
 
